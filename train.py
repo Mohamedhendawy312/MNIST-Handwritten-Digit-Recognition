@@ -9,7 +9,7 @@ import torch.optim as optim
 import random
 from sklearn.metrics import precision_recall_fscore_support
 
-# Download and load the MNIST dataset
+# Define the transformation
 transform = transforms.Compose([
     transforms.ToTensor(),
     transforms.Normalize((0.5,), (0.5,))
