@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+
+# MNIST data (downloaded automatically)
+data/
+
+# Model weights (except examples)
+models/*.pth
+!models/.gitkeep
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Training outputs (keep visualization images)
+outputs/training_history.json
